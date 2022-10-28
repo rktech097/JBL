@@ -11,12 +11,9 @@ from six import text_type
 class Batch(Document):
     def autoname(self):
         if self.reference_doctype =="Purchase Receipt":
-            sup = frappe.db.get_value("Purchase Receipt", self.reference_name, 'name')
-            a = sup.split("-")
-            b = a[3]
-            frappe.msgprint(self.reference_name)
-            frappe.msgprint(sup)
-            self.abbr = b
+            docname = frappe.db.get_value("Purchase Receipt", self.reference_name, 'name')
+            name_split = docname.split("-")
+            abbr = name_split[3]
+            self.abbr = abbr
             self.naming_series = "B-.{abbr}.-.###"
-            frappe.msgprint(self.naming_series)
             self.batch_id = self.naming_series
