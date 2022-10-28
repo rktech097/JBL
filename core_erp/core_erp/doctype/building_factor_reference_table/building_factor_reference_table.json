@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:job_weight_kgs",
+ "creation": "2022-09-03 12:48:19.348148",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "job_weight_kgs",
+  "job_weight_kg",
+  "building_factor",
+  "type_of_order",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "job_weight_kgs",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Job weight kgs (min)",
+   "unique": 1
+  },
+  {
+   "fieldname": "job_weight_kg",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Job weight kgs (max)"
+  },
+  {
+   "fieldname": "building_factor",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Building Factor"
+  },
+  {
+   "fieldname": "type_of_order",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Type of Order"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Building Factor Reference Table",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-09-03 16:46:02.513155",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "Building Factor Reference Table",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

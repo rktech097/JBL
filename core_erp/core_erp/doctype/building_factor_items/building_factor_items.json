@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-09-03 16:47:09.938364",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "job_weight_kgs",
+  "job_weight_kg",
+  "building_factor",
+  "type_of_order"
+ ],
+ "fields": [
+  {
+   "fieldname": "job_weight_kgs",
+   "fieldtype": "Data",
+   "label": "Job weight kgs (min)"
+  },
+  {
+   "fieldname": "job_weight_kg",
+   "fieldtype": "Data",
+   "label": "Job weight kgs (max)"
+  },
+  {
+   "fieldname": "building_factor",
+   "fieldtype": "Data",
+   "label": "Building Factor"
+  },
+  {
+   "fieldname": "type_of_order",
+   "fieldtype": "Data",
+   "label": "Type of Order"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-09-03 16:47:57.515934",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "Building Factor Items",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

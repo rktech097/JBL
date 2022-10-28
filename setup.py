@@ -9,7 +9,7 @@ from core_erp import __version__ as version
 setup(
 	name="core_erp",
 	version=version,
-	description="Customizations for JBL",
+	description="Unified Solution for Your Business Needs",
 	author="Extension Technologies Pvt Ltd",
 	author_email="hello@extensionerp.com",
 	packages=find_packages(),
