@@ -1,5 +1,6 @@
 import frappe
 from frappe.model.document import Document
+
 class Batch(Document):
     def autoname(self):
         if self.reference_doctype =="Purchase Receipt":
