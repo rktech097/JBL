@@ -98,7 +98,7 @@ app_license = "MIT"
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 override_doctype_class = {
-	"Batch": "core_erp.customization.batch.Batch"
+	"Batch": "core_erp.core_erp.customization.batch.Batch"
  }
 
 # Document Events
