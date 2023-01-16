@@ -205,7 +205,8 @@ override_whitelisted_methods = {
 # translated_search_doctypes = []
 
 fixtures = [
-    'Client Script',
-	{"dt": "Property Setter"},
-	{"dt": "Custom Field"}
+    fixtures = [
+    {"dt": "Custom Field", "filters": [["module", "=", "core_erp"]]},
+    {"dt": "Property Setter", "filters": [["module", "=", "core_erp"]]},
+]
 ]
