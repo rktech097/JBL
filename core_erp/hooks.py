@@ -197,8 +197,3 @@ override_whitelisted_methods = {
 # For example: Role, Gender, etc.
 # translated_search_doctypes = []
 
-fixtures = [
-    'Client Script',
-	{"dt": "Property Setter"},
-	{"dt": "Custom Field"}
-]
