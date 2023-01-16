@@ -206,7 +206,7 @@ override_whitelisted_methods = {
 
 fixtures = [
     fixtures = [
-    {"dt": "Custom Field", "filters": [["module", "=", "core_erp"]]},
-    {"dt": "Property Setter", "filters": [["module", "=", "core_erp"]]}
+    {"dt": "Custom Field", "filters": [["module", "=", "Core ERP"]]},
+    {"dt": "Property Setter", "filters": [["module", "=", "Core ERP"]]}
 ]
 ]
