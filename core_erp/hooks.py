@@ -29,7 +29,14 @@ app_license = "MIT"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"Item" : "core_erp/customization/client_script/item.js",
+			"Opportunity" : "core_erp/customization/client_script/opportunity.js",
+			"Purchase Order" : "core_erp/customization/client_script/purchase_order.js",
+			"Purchase Invoice" : "core_erp/customization/client_script/purchase_invoice.js",
+			"Purchase Receipt" : "core_erp/customization/client_script/purchase_receipt.js",
+			"Quotation" : "core_erp/customization/client_script/quotation.js",
+			"Sales Order" : "core_erp/customization/client_script/sales_order.js"
+	}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -197,3 +204,7 @@ override_whitelisted_methods = {
 # For example: Role, Gender, etc.
 # translated_search_doctypes = []
 
+fixtures = [
+    {"dt": "Custom Field", "filters": [["module", "=", "Core ERP"]]},
+    {"dt": "Property Setter", "filters": [["module", "=", "Core ERP"]]}
+]
