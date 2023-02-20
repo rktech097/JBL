@@ -6,20 +6,36 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "step_no",
   "width",
   "stack_per_limb",
   "number_of_pieces_per_limb",
   "total_calculated_qty",
-  "total_calculated_scrap"
+  "total_calculated_scrap",
+  "length_c",
+  "calculated_qty_c",
+  "calculated_scrap_c",
+  "length_z",
+  "calculated_qty_z",
+  "calculated_scrap_z",
+  "column_break_6",
+  "length_a",
+  "calculated_qty_a",
+  "length_a1",
+  "calculated_qty_a1",
+  "calculated_scrap_a",
+  "length_b",
+  "calculated_qty_b",
+  "calculated_scrap_b",
+  "length_d",
+  "calculated_qty_d",
+  "calculated_scrap_d",
+  "length_r",
+  "calculated_qty_r",
+  "length_r1",
+  "calculated_qty_r1",
+  "calculated_scrap_r"
  ],
  "fields": [
-  {
-   "fieldname": "step_no",
-   "fieldtype": "Int",
-   "in_list_view": 1,
-   "label": "Step No"
-  },
   {
    "fieldname": "width",
    "fieldtype": "Int",
@@ -30,31 +46,166 @@
    "fieldname": "stack_per_limb",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Stack per limb"
+   "label": "Stack Per Limb"
   },
   {
    "fieldname": "number_of_pieces_per_limb",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Number of pieces per limb"
+   "label": "Number of Pieces Per Limb"
   },
   {
    "fieldname": "total_calculated_qty",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Total calculated Qty"
+   "label": "Total Calculated Qty"
   },
   {
    "fieldname": "total_calculated_scrap",
    "fieldtype": "Percent",
    "in_list_view": 1,
-   "label": "Total calculated scrap"
+   "label": "Total Calculated Scrap"
+  },
+  {
+   "default": "0",
+   "fieldname": "length_a",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Lth A"
+  },
+  {
+   "fieldname": "length_b",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Lth B"
+  },
+  {
+   "default": "0",
+   "fieldname": "calculated_qty_b",
+   "fieldtype": "Float",
+   "label": "Calculated Qty B (kgs)",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "calculated_scrap_b",
+   "fieldtype": "Float",
+   "label": "Calculated Scrap B (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "length_c",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Lth C"
+  },
+  {
+   "fieldname": "calculated_qty_c",
+   "fieldtype": "Float",
+   "label": "Calculated Qty C (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "calculated_scrap_c",
+   "fieldtype": "Float",
+   "label": "Calculated Scrap C (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calculated_qty_d",
+   "fieldtype": "Float",
+   "label": "Calculated Qty D (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "calculated_scrap_d",
+   "fieldtype": "Float",
+   "label": "Calculated Scrap D (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "calculated_qty_r",
+   "fieldtype": "Float",
+   "label": "Calculated Qty R (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "calculated_scrap_r",
+   "fieldtype": "Float",
+   "label": "Calculated Scrap R (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "length_d",
+   "fieldtype": "Float",
+   "label": "Lth D"
+  },
+  {
+   "fieldname": "length_r",
+   "fieldtype": "Float",
+   "label": "Lth R"
+  },
+  {
+   "fieldname": "length_z",
+   "fieldtype": "Float",
+   "label": "Lth Z"
+  },
+  {
+   "fieldname": "calculated_qty_z",
+   "fieldtype": "Float",
+   "label": "Calculated Qty Z (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "calculated_scrap_z",
+   "fieldtype": "Float",
+   "label": "Calculated Scrap Z (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "calculated_qty_a",
+   "fieldtype": "Float",
+   "label": "Calculated Qty A (kgs)",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "calculated_scrap_a",
+   "fieldtype": "Float",
+   "label": "Calculated Scrap A (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "calculated_qty_r1",
+   "fieldtype": "Float",
+   "label": "Calculated Qty R1 (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "calculated_qty_a1",
+   "fieldtype": "Float",
+   "label": "Calculated Qty A1 (kgs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "length_a1",
+   "fieldtype": "Float",
+   "label": "Lth A1"
+  },
+  {
+   "fieldname": "length_r1",
+   "fieldtype": "Float",
+   "label": "Lth R1"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-01-16 18:30:42.372830",
+ "modified": "2023-02-06 16:23:22.911120",
  "modified_by": "Administrator",
  "module": "Core ERP",
  "name": "Work Order Job",

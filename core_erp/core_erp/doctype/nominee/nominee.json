@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-02-14 11:41:33.094253",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "relation",
+  "dob",
+  "contact_details",
+  "nominee"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "relation",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Relation",
+   "options": "Father\nMother\nBrother\nSister"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "DOB"
+  },
+  {
+   "default": "0",
+   "fieldname": "nominee",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Nominee"
+  },
+  {
+   "fieldname": "contact_details",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Contact Details",
+   "length": 10
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-14 13:39:17.086967",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "Nominee",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
