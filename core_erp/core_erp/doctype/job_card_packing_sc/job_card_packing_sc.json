@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-06 14:15:39.167207",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sc_id",
+  "width",
+  "column_break_3",
+  "planned_qty",
+  "actual_qty",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "sc_id",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "SC ID"
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "SC Width (mm)"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "planned_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned Qty (kgs)"
+  },
+  {
+   "fieldname": "actual_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Actual Qty (kgs)"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-20 12:12:14.270292",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "JOB CARD PACKING SC",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

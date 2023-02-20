@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-02-17 12:07:57.778515",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "mc_id",
+  "mc_weight",
+  "sample_code",
+  "column_break_4",
+  "flux_density",
+  "punch_code",
+  "sample_issue",
+  "sample_receipt"
+ ],
+ "fields": [
+  {
+   "fieldname": "mc_id",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "MC ID"
+  },
+  {
+   "fieldname": "mc_weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "MC Weight (kgs)"
+  },
+  {
+   "fieldname": "sample_code",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Sample Code"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "flux_density",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Flux Density (T)"
+  },
+  {
+   "fieldname": "punch_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Punch Code"
+  },
+  {
+   "fieldname": "sample_issue",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sample Issue Sign"
+  },
+  {
+   "fieldname": "sample_receipt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sample Receipt Sign"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-20 12:12:13.329458",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "JOB CARD - SAMPLE CUTTING",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

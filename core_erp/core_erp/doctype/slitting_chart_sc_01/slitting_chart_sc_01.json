@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-17 11:36:42.059229",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "step_no",
+  "width_mm",
+  "planned_qty_kgs",
+  "next_workstation",
+  "column_break_5",
+  "qty_allocated_kgs",
+  "extra_qty_kgs",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "step_no",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Step no."
+  },
+  {
+   "fieldname": "width_mm",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Width (mm)"
+  },
+  {
+   "fieldname": "planned_qty_kgs",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned Qty (kgs)"
+  },
+  {
+   "fieldname": "next_workstation",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Next Workstation"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "qty_allocated_kgs",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Qty allocated (kgs)"
+  },
+  {
+   "fieldname": "extra_qty_kgs",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Extra Qty (kgs)"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-20 12:12:10.432480",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "SLITTING CHART-SC-01",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

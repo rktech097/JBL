@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-02-06 14:12:35.626797",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pallet_no",
+  "planned_length",
+  "planned_width",
+  "planned_wood",
+  "column_break_3",
+  "actual_pallet",
+  "punch_code",
+  "pallet_issue",
+  "pallet_receipt"
+ ],
+ "fields": [
+  {
+   "fieldname": "pallet_no",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Pallet No."
+  },
+  {
+   "fieldname": "planned_length",
+   "fieldtype": "Float",
+   "label": "Planned Length (mm)"
+  },
+  {
+   "fieldname": "planned_width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned Width (mm)"
+  },
+  {
+   "fieldname": "planned_wood",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned Wood Qty (cfm)"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "actual_pallet",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Actual Pallet size (LXW)"
+  },
+  {
+   "fieldname": "punch_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Punch Code"
+  },
+  {
+   "fieldname": "pallet_issue",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pallet Issue Sign"
+  },
+  {
+   "fieldname": "pallet_receipt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pallet Receipt Sign"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-20 12:12:11.789001",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "JOB CARD WOODWORK",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

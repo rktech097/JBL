@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-02-06 13:44:57.317494",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "mc_sc",
+  "no_of_slits",
+  "width",
+  "planned_qty",
+  "column_break_5",
+  "planned_qty_total",
+  "actual_qty",
+  "burr_level",
+  "thickness",
+  "remarks_receipt"
+ ],
+ "fields": [
+  {
+   "fieldname": "mc_sc",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "MC / SC ID"
+  },
+  {
+   "fieldname": "no_of_slits",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "NO. of Slits"
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Width (mm)"
+  },
+  {
+   "fieldname": "planned_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned Qty Per Coil (kgs)"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "planned_qty_total",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned Qty Total (kgs)"
+  },
+  {
+   "fieldname": "actual_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Actual Qty Per  Coil (kgs)"
+  },
+  {
+   "fieldname": "burr_level",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Burr Level (mm)"
+  },
+  {
+   "fieldname": "thickness",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Thickness (mm)",
+   "options": "0.20\n0.23\n0.27\n0.30\n0.35\n0.50"
+  },
+  {
+   "fieldname": "remarks_receipt",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Remarks / Receipt Sign"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-20 12:12:11.431559",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "JOB CARD SLITTING",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

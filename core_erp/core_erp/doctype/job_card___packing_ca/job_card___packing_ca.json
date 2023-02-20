@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-02-17 12:01:06.601482",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pallet_no",
+  "no_of_jobs",
+  "planned_net",
+  "column_break_4",
+  "actual_net",
+  "gross",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "pallet_no",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Pallet no."
+  },
+  {
+   "fieldname": "no_of_jobs",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "No. of jobs / pallet"
+  },
+  {
+   "fieldname": "planned_net",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned Net Weight / pallet (kgs)"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "actual_net",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Actual Net Weight / pallet (kgs)"
+  },
+  {
+   "fieldname": "gross",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Gross weight (kgs)"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-20 12:12:13.822283",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "JOB CARD - PACKING CA",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
