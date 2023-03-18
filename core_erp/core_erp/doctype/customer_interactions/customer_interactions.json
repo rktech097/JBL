@@ -1,0 +1,132 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:customer",
+ "creation": "2023-03-13 12:47:25.933502",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "status",
+  "customer_details_section",
+  "customer_name",
+  "customer",
+  "column_break_5",
+  "customer_phone_number",
+  "customer_email",
+  "column_break_12",
+  "sales_manager",
+  "customer_relations_manager",
+  "actuals",
+  "actual"
+ ],
+ "fields": [
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Active\nInactive",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Details"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "label": "Name",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "customer_name.mobile_no",
+   "fieldname": "customer_phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fetch_from": "customer_name.email_id",
+   "fieldname": "customer_email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "actual",
+   "fieldtype": "Table",
+   "label": "Actual",
+   "options": "Actual"
+  },
+  {
+   "fieldname": "actuals",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fetch_from": "customer_name.account_manager",
+   "fieldname": "sales_manager",
+   "fieldtype": "Data",
+   "label": "Sales Manager",
+   "options": "Email",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "customer_name.customer_name",
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "label": "Customer",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fetch_from": "customer_name.crm",
+   "fieldname": "customer_relations_manager",
+   "fieldtype": "Data",
+   "label": "Customer Relations Manager",
+   "options": "Email",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-16 14:21:48.447921",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "Customer Interactions",
+ "name_case": "UPPER CASE",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

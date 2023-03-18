@@ -1,6 +1,6 @@
 frappe.ui.form.on('Item', {
 	onload(frm) {
-		cur_frm.set_query("item_subgroup", function() {
+		cur_frm.set_query("item_subgroup", function () {
 			return {
 
 				filters: [
@@ -8,7 +8,7 @@ frappe.ui.form.on('Item', {
 				]
 			};
 		});
-    	},
+	},
 });
 
 

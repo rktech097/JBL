@@ -7,6 +7,30 @@ app_description = "Customizations for JBL"
 app_email = "hello@extensionerp.com"
 app_license = "MIT"
 
+
+
+
+
+
+
+
+
+doc_events = {
+	"Job Card": {
+        "validate": "core_erp.core_erp.customization.job_card.job_card.validate"
+	},
+ 	"Leave Application": {
+        "validate": "core_erp.core_erp.customization.leave_application.leave.validate",
+	},
+	"Employee Checkin": {
+		"before_save": "core_erp.core_erp.customization.employee_checkin.employee_checkin.before_save"
+	}
+}
+
+
+
+
+
 # Includes in <head>
 # ------------------
 
