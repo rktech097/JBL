@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-03-07 12:16:09.788564",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "scheduled_date",
+  "appointment_type",
+  "action_type",
+  "planned_qty",
+  "actual_qty",
+  "status",
+  "column_break_7",
+  "completion_date",
+  "follow_up_appointment_type",
+  "follow_up_action_type",
+  "follow_up_date",
+  "details"
+ ],
+ "fields": [
+  {
+   "fieldname": "actual_qty",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Actual Qty"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Details"
+  },
+  {
+   "fieldname": "scheduled_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Scheduled Date"
+  },
+  {
+   "fieldname": "appointment_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Appointment Type",
+   "options": "\nCall\nMeet"
+  },
+  {
+   "fieldname": "action_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Action Type",
+   "options": "\nEnquiry Generation\nOrder Taking\nGeneral\nFirst Pitch"
+  },
+  {
+   "fieldname": "planned_qty",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Planned Qty"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Open\nCompleted\nRescheduled\nCancelled"
+  },
+  {
+   "fieldname": "completion_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Completion Date"
+  },
+  {
+   "fieldname": "follow_up_appointment_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Follow up Appointment Type",
+   "options": "\nCall\nMeet"
+  },
+  {
+   "fieldname": "follow_up_action_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Follow up Action Type",
+   "options": "\nEnquiry Generation\nOrder Taking\nGeneral\nFirst Pitch"
+  },
+  {
+   "fieldname": "follow_up_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Follow up Date"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-15 14:04:01.672161",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "Actual",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
