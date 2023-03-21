@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-02-22 15:01:53.617903",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "shape",
+  "stack_mm",
+  "planned_qty",
+  "column_break_3",
+  "actual_qty",
+  "pallet_no",
+  "final"
+ ],
+ "fields": [
+  {
+   "fieldname": "shape",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "L X W X Shape"
+  },
+  {
+   "fieldname": "stack_mm",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned Stack (mm)"
+  },
+  {
+   "fieldname": "planned_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned Qty (kgs)"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "actual_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Actual Qty (kgs)"
+  },
+  {
+   "fieldname": "pallet_no",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Pallet no. / Remarks / Short Qty (kgs)"
+  },
+  {
+   "fieldname": "final",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Final Qty (kgs)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-21 12:05:28.063852",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "JOB CARD - PACKING - CL-ABC-B",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

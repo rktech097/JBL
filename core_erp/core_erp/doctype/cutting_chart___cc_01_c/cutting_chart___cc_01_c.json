@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-02-22 12:36:19.567281",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "machine_no",
+  "step_no",
+  "stack",
+  "l_x_w",
+  "planned_pieces",
+  "planned_stack",
+  "column_break_7",
+  "planned",
+  "actual_no",
+  "actual_stack",
+  "actual_qty",
+  "punch_code",
+  "remarks_receipt"
+ ],
+ "fields": [
+  {
+   "fieldname": "machine_no",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Machine No. (For Manual)"
+  },
+  {
+   "fieldname": "step_no",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Step No."
+  },
+  {
+   "fieldname": "stack",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Stack Per Limb (1 Job) (mm)"
+  },
+  {
+   "fieldname": "l_x_w",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "L X W"
+  },
+  {
+   "fieldname": "planned_pieces",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned No of Pieces"
+  },
+  {
+   "fieldname": "planned_stack",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned Stack (mm)"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "planned",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Planned Finished Qty (kgs)"
+  },
+  {
+   "fieldname": "actual_no",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Actual No. of Pieces"
+  },
+  {
+   "fieldname": "actual_stack",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Actual Stack (mm)"
+  },
+  {
+   "fieldname": "actual_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Actual Qty (kgs)"
+  },
+  {
+   "fieldname": "punch_code",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Punch Code"
+  },
+  {
+   "fieldname": "remarks_receipt",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Remarks / Receipt Sign"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-21 12:05:45.267752",
+ "modified_by": "Administrator",
+ "module": "Core ERP",
+ "name": "CUTTING CHART - CC-01-C",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
