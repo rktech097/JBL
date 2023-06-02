@@ -105,7 +105,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-16 14:21:48.447921",
+ "modified": "2023-05-23 15:27:34.802293",
  "modified_by": "Administrator",
  "module": "Core ERP",
  "name": "Customer Interactions",
@@ -128,5 +128,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "customer_name"
 }

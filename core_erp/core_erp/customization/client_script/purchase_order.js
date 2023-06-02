@@ -1,5 +1,5 @@
 frappe.ui.form.on('Purchase Order', {
-	cost_center(frm) {
+	validate(frm) {
 		if (frm.doc.po_type == "General" && frm.doc.cost_center == "Noida J1 - JBL") {
 			frm.set_value("naming_series", "PO/GEN/J1/.FY./");
 		}
@@ -17,7 +17,8 @@ frappe.ui.form.on('Purchase Order', {
 		}
 		if (frm.doc.po_type == "Import" && frm.doc.cost_center == "Noida J1 - JBL") {
 			frm.set_value("naming_series", "PO/IM/J1/.FY./");
-		}
+		}},
+	cost_center(frm){
 		if (frm.doc.cost_center == "Surajpur J2 - JBL") {
 			frm.set_value("billing_address", "JBL-Surajpur G.Noida-Billing")
 			frm.set_value("shipping_address", "JBL-Surajpur G.Noida-Billing")
