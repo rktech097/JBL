@@ -10,8 +10,7 @@ app_license = "MIT"
 
 ### Class Overrides
 from hrms.hr.doctype.compensatory_leave_request.compensatory_leave_request import CompensatoryLeaveRequest
-from core_erp.core_erp.customization.compensatory_leave_request.compensatory_leave_request import 
-validate
+from core_erp.core_erp.customization.compensatory_leave_request.compensatory_leave_request import validate
 
 CompensatoryLeaveRequest.validate = validate
 
