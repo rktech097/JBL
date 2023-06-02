@@ -8,7 +8,12 @@ app_email = "hello@extensionerp.com"
 app_license = "MIT"
 
 
+### Class Overrides
+from hrms.hr.doctype.compensatory_leave_request.compensatory_leave_request import CompensatoryLeaveRequest
+from core_erp.core_erp.customization.compensatory_leave_request.compensatory_leave_request import 
+validate
 
+CompensatoryLeaveRequest.validate = validate
 
 
 
@@ -16,9 +21,6 @@ app_license = "MIT"
 
 
 doc_events = {
-	"Job Card": {
-        "validate": "core_erp.core_erp.customization.job_card.job_card.validate"
-	},
  	"Leave Application": {
         "validate": "core_erp.core_erp.customization.leave_application.leave.validate",
 	},
@@ -41,7 +43,8 @@ override_doctype_class = {
  }
 
 override_whitelisted_methods = {
-	"erpnext.selling.doctype.sales_order.sales_order.make_work_orders": "core_erp.core_erp.customization.sales_order.sales_order.make_work_orders"
+	"erpnext.selling.doctype.sales_order.sales_order.make_work_orders": "core_erp.core_erp.customization.sales_order.sales_order.make_work_orders",
+	# "erpnext.selling.doctype.sales_order.sales_order.get_work_order_items": "core_erp.core_erp.customization.sales_order.sales_order.get_work_order_items"
 }
 
 fixtures = [
