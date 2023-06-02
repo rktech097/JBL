@@ -22,10 +22,20 @@ doc_events = {
  	"Leave Application": {
         "validate": "core_erp.core_erp.customization.leave_application.leave.validate",
 	},
-	"Employee Checkin": {
-		"before_save": "core_erp.core_erp.customization.employee_checkin.employee_checkin.before_save"
+	"Journal Entry": {
+		"before_save": "core_erp.core_erp.customization.journal_entry.journal_entry.before_save"
 	}
 }
+
+permission_query_conditions = {
+	"Expense Claim": "core_erp.core_erp.customization.permission_rules.permissions.permission_query_expense_claim",
+    "Travel Request": "core_erp.core_erp.customization.permission_rules.permissions.permission_query_travel_request",
+    "Loan Application": "core_erp.core_erp.customization.permission_rules.permissions.permission_query_loan",
+    "Employee Advance": "core_erp.core_erp.customization.permission_rules.permissions.permission_query_advcance",
+    "Leave Application": "core_erp.core_erp.customization.permission_rules.permissions.permission_leave_application",
+	
+}
+
 
 doctype_js = {"Item" : "core_erp/customization/client_script/item.js",
 			"Opportunity" : "core_erp/customization/client_script/opportunity.js",
